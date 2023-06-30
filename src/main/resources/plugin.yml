@@ -1,0 +1,9 @@
+name: PerWorldTablistPlugin
+version: '${project.version}'
+main: plugin.perworldtablistplugin.PerWorldTablistPlugin
+api-version: '1.20'
+
+commands:
+  pwtp:
+    description: Plugin's basic commands
+    permission: op

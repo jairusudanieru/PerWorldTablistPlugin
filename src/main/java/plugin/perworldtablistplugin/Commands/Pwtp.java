@@ -12,7 +12,7 @@ import java.util.List;
 
 public class Pwtp implements CommandExecutor, TabCompleter {
 
-    JavaPlugin plugin;
+    private final JavaPlugin plugin;
     public Pwtp(JavaPlugin plugin) {
         this.plugin = plugin;
     }

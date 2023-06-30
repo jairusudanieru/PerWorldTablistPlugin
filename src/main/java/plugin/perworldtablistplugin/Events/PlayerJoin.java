@@ -15,7 +15,7 @@ import java.util.Set;
 
 public class PlayerJoin implements Listener {
 
-    JavaPlugin plugin;
+    private final JavaPlugin plugin;
     public PlayerJoin(JavaPlugin plugin) {
         this.plugin = plugin;
     }

@@ -14,7 +14,7 @@ import java.util.Set;
 
 public class ChangeWorld implements Listener {
 
-    JavaPlugin plugin;
+    private final JavaPlugin plugin;
     public ChangeWorld(JavaPlugin plugin) {
         this.plugin = plugin;
     }

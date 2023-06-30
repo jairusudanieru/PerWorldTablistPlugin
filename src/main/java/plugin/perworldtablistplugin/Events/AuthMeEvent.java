@@ -15,7 +15,7 @@ import java.util.Set;
 
 public class AuthMeEvent implements Listener {
 
-    JavaPlugin plugin;
+    private final JavaPlugin plugin;
     public AuthMeEvent(JavaPlugin plugin) {
         this.plugin = plugin;
     }

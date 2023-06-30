@@ -11,7 +11,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 public class PlayerQuit implements Listener {
 
-    JavaPlugin plugin;
+    private final JavaPlugin plugin;
     public PlayerQuit(JavaPlugin plugin) {
         this.plugin = plugin;
     }
